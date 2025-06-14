@@ -1,0 +1,32 @@
+@import url(../universal_style/uni-style.css);
+
+header {
+    background-color: #FFD9D9;
+    height: 102px;
+    width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+}
+header .flex-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header .right {
+    width: 210px;
+}
+.mid {
+    width: 400px;
+}
+header .name {
+    font-family: "Quicksand", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    text-transform: capitalize;
+    padding-left: 100px;
+}
+header ul li a {
+    text-transform: capitalize;
+}

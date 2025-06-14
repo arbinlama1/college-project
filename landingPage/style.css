@@ -1,0 +1,191 @@
+@import url(../universal_style/uni-style.css);
+
+.back {
+    background-color: white;
+}
+
+section {
+    position: relative;
+    font-family: "roboto", sans-serif;
+}
+
+section .details {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: absolute;
+    width: 500px;
+    top: 30%;
+    left: -40%;
+    opacity: 0;
+    color: white;
+    animation: animate 2s ease forwards;
+}
+
+section .details h1 {
+    font-family: "DM serif display", sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    /* letter-spacing: 1px; */
+}
+
+section .sub-detail {
+    font-size: 20px;
+    /* letter-spacing: 1px; */
+}
+
+section .details .btn {
+    display: flex;
+    gap: 23px;
+    margin-top: 104px;
+    padding: 0 10px;
+}
+
+section button {
+    height: 54px;
+    width: 189px;
+    font-weight: 700;
+    padding: 20px;
+    border-radius: 3px;
+    font-size: 12px;
+}
+
+section .explore-btn {
+    background: transparent;
+    border-color: #FF8FA3;
+
+}
+
+section .all-btn {
+    width: 165px;
+    border: none;
+    background-color: #FF8FA3;
+}
+
+section .all-btn:hover {
+    background-color: #F22E51;
+}
+
+section .details .btn .try-btn a {
+    color: white;
+}
+
+section .details .btn a {
+    color: #FF8FA3;
+}
+
+.text {
+    text-transform: capitalize;
+}
+
+section .what-we-do {
+    padding-top: 8rem;
+    /* border: 2px solid black; */
+}
+
+section .what-we-do .sec-head {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+section .what-we-do .left {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+section .h-line {
+    height: 3px;
+    width: 8rem;
+    background-color: #FF8FA3;
+}
+
+section .what-we-do h2 {
+    color: #FF8FA3;
+    font-size: 24px;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+
+
+section .what-we-do .left .fashion-choice {
+    font-size: 32px;
+    font-weight: 800;
+    margin-top: 10px;
+}
+
+section .what-we-do .left .description {
+    max-width: 450px;
+    line-height: 25px;
+    margin-top: 40px;
+}
+
+section .background {
+    padding: 1rem 10rem;
+}
+
+section .img {
+    width: 356px;
+    height: 293px;
+    position: relative;
+
+    border: 6px solid transparent;
+    transition: all 0.5s ease;
+    box-sizing: border-box;
+}
+
+section .what-we-do img {
+    top: -63px;
+    left: -10px;
+}
+
+section .img:hover {
+    border-color: #FF8FA3;
+    border-radius: 3px;
+}
+
+section .what-we-do .left .fashion button {
+    margin-top: 10px;
+    width: 164px;
+}
+
+section .what-we-do .left .fashion .learn-more a {
+    color: white;
+}
+
+section .dress-catogories {
+    margin: 50px 0;
+    color: #3A1C1C;
+}
+
+section .dress-catogories h2 {
+    font-size: 32px;
+    font-weight: 800;
+    font-family: "roboto", sans-serif;
+    margin-bottom: 30px
+}
+
+section .dress-catogories .items {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+section .dress-catogories .items p {
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+@keyframes animate {
+    form {
+        left: -40%;
+        opacity: 0;
+    }
+
+    to {
+        left: 11%;
+        opacity: 1;
+    }
+}
