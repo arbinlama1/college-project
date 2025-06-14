@@ -8,7 +8,6 @@ section {
     position: relative;
     font-family: "roboto", sans-serif;
 }
-
 section .details {
     display: flex;
     flex-direction: column;

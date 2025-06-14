@@ -22,6 +22,7 @@ form .login {
 form .login .contain img {
     height: 206px;
     width: 206px;
+    object-fit:  cover;
 }
 form .login .contain .input a img {
     height: 24px;
@@ -29,6 +30,7 @@ form .login .contain .input a img {
 }
 form .login .contain {
     margin: 40px 0;
+    padding-top: 60px;
     border: 1px solid #8E8282;
     display: flex;
     width: 544px;
@@ -72,10 +74,12 @@ form .login .input .common-input  {
 form .login .input input:focus {
     border-color: pink;
 }
+
 form .login .contain .input .remember-check {
     display: flex;
     align-items: center;
 }
+
 form .login .contain .input .remember-check #check {
     height: 26px;
     width: 26px;
@@ -84,6 +88,7 @@ form .login .contain .input .remember-check #check {
     border: 1px solid gray;
     position: relative;
 }
+
 form .login .contain .input .remember-check #check:checked {
     border-color: #FF8FA3;
 }
@@ -110,7 +115,7 @@ form .login .contain .input .remember-check a {
 form .login .contain .input .sign-in {
     background-color: #FF8FA3;
     color: white;
-    margin-top: 50px;
+    margin-top: 40px;
     border: none;
 }
 form .login .contain .input .btn-font {
@@ -129,7 +134,7 @@ form .login .contain .input .sign-in-with a {
 }
 form .login .contain .input .no-account {
     text-align: center;
-    margin: 50px 0;
+    margin: 40px 0;
     text-transform: capitalize;
 }
 form .login .contain .input .no-account a {
