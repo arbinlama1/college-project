@@ -22,6 +22,7 @@ form .login {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 40px;
 }
 
 form .login .contain img {
@@ -31,15 +32,18 @@ form .login .contain img {
 
 
 form .login .contain {
-    margin: 40px 0;
-    border: 1px solid #8E8282;
+    border-width: 2px 2px 2px 1px;
+    border-style: solid;
+    border-color: #8E8282;
     display: flex;
     width: 544px;
-    height: 924px;
+    height: 844px;
     border-radius: 10px;
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 100px;
+    padding-bottom: 60px;
 }
 
 form .login .contain .input {
@@ -47,6 +51,12 @@ form .login .contain .input {
     flex-direction: column;
     width: 100%;
     padding: 0 15px;
+    gap: 15px;
+}
+
+form .login .contain input {
+    padding: 0 10px;
+    font-size: 25px;
 }
 
 form .login .contain .para-common {
@@ -62,10 +72,11 @@ form .login .para {
 
 form .login .input label {
     margin-top: 20px;
+    color: black;
 }
 
 form .login .input .common-input {
-    margin: 10px 0;
+    /* margin-top: 10px; */
     width: 100%;
     height: 54px;
     border: 1px solid gray;
@@ -79,7 +90,13 @@ form .login .input input:focus {
     border-color: pink;
 }
 
+form .login .contain .input .remember-check {
+    color: #675C5C;
+}
 
+form .login .contain .input .remember-check p {
+    line-height: 30px;
+}
 
 form .login .input .remember-check img {
     height: 16px;
@@ -97,24 +114,19 @@ form .login .contain .input .sign-in {
 form .login .contain .input .btn-font {
     font-size: 12px;
     font-weight: 700;
+    text-align: center;
+    padding: 17px 0;
 }
 
 form .login .contain .input .sign-in-with {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
     border-color: #FF8FA3;
-    margin: 0;
 }
 
-form .login .contain .input .sign-in-with a {
+form .login .contain .input a {
     color: #FF8FA3;
 }
 
 
-
-
-form .login .contain .input .sign-in-with:hover {
+form .login .contain .input .btn-font:hover {
     background-color: #F22E51;
 }
