@@ -47,6 +47,9 @@ form .login .contain .input {
     width: 100%;
     padding: 0 15px;
 }
+form .login .contain input {
+    padding: 0 15px;
+}
 form .login .contain .para-common {
     padding: 5px 50px;
 }
@@ -68,7 +71,7 @@ form .login .input .common-input  {
     border: 1px solid gray;
     text-transform: capitalize;
     border-radius: 5px;
-    font-size: 20px;
+    font-size: 35px;
     outline: none;
 }
 form .login .input input:focus {
@@ -87,6 +90,7 @@ form .login .contain .input .remember-check #check {
     appearance: none;
     border: 1px solid gray;
     position: relative;
+    padding: 0;
 }
 
 form .login .contain .input .remember-check #check:checked {
