@@ -81,6 +81,9 @@ form .login .contain .input .sign-in {
     margin-top: 10px;
     border: none;
 }
+form .login .contain .input .sign-in:hover {
+    background-color: #F22E51;
+}
 form .login .contain .input .btn-font {
     font-size: 12px;
     font-weight: 700;
