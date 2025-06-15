@@ -3,6 +3,7 @@
     color: #3A1C1C;
     background-color: white;
 }
+
 form h2 {
     color: #3A1C1C;
     font-family: "Quicksand", sans-serif;
@@ -11,14 +12,17 @@ form h2 {
     font-weight: 700;
     font-size: 32px;
 }
+
 form a:hover {
     color: #3A1C1C;
 }
+
 form .login {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 form .login .contain img {
     height: 206px;
     width: 206px;
@@ -46,12 +50,15 @@ form .login .contain .input {
     width: 100%;
     padding: 0 15px;
 }
+
 form .login .contain input {
     padding: 0 15px;
 }
+
 form .login .contain .para-common {
     padding: 5px 50px;
 }
+
 form .login .para {
     font-weight: 700;
     font-size: 24px;
@@ -64,6 +71,7 @@ form .opt-in {
     margin: 30px 0;
     padding: 0 90px;
 }
+
 form .login .input .common-input  {
     margin: 10px 0;
     width: 74px;
@@ -73,6 +81,7 @@ form .login .input .common-input  {
     font-size: 45px;
     outline: none;
 }
+
 form .login .input input:focus {
     border-color: pink;
 }
@@ -90,9 +99,13 @@ form .login .contain .input .sign-in {
 }
 
 /* a tag is comming from js */
+form .login .contain .input .text a {
+    color: #FF8FA3;
+}
 form .login .contain .input .text a:hover {
     cursor: pointer;
 }
+
 form .text {
     display: flex;
     justify-content: space-between;
@@ -105,8 +118,7 @@ form .login .contain .input .no-account {
     font-size: 12px;
 }
 
-
-form .login .contain .input button:hover {
+form .login .contain .input .btn-font:hover {
     background-color: #F22E51;
 }
 
