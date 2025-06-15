@@ -28,7 +28,9 @@ form .login .contain img {
 form .login .contain {
     margin: 40px 0;
     padding-top: 60px;
-    border: 1px solid #8E8282;
+    border-width: 3px 3px 3px 1px;
+    border-style: solid;
+    border-color: #8E8282;
     display: flex;
     width: 544px;
     height: 857px;
@@ -42,6 +44,9 @@ form .login .contain .input {
     display: flex;
     flex-direction: column;
     width: 100%;
+    padding: 0 15px;
+}
+form .login .contain input {
     padding: 0 15px;
 }
 form .login .contain .para-common {
@@ -63,10 +68,9 @@ form .login .input .common-input  {
     margin: 10px 0;
     width: 74px;
     height: 76px;
-    border: 1px solid black;
+    border: 2px solid black;
     text-transform: capitalize;
-    /* border-radius: 5px; */
-    font-size: 20px;
+    font-size: 45px;
     outline: none;
 }
 form .login .input input:focus {
