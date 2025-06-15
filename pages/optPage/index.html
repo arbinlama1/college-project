@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Forgot password</title>
+    <title>OTP page</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,20 +20,27 @@
         </a>
         <div class="login">
             <div class="contain">
-                <img src="../../image/forgotPass.png" alt="log in photo">
-                <p class="para para-common">Forgot Password?</p>
-                <p class="wel-message para-common">No worries, We'll send you reset instructions.</p>
+                <img src="../../image/otp.png" alt="log in photo">
+                <p class="para para-common">OTP Verification</p>
+                
                 <div class="input">
-                    <label for="email">Email</label>  
-                    <input type="email" class="common-input" id="email" name="email">
-
-                    <a href="../optPage/index.html" class="common-input sign-in btn-font">Reset Password</a>
-
-                    <p class="no-account">back to <a href="../logInPage/index.html">Sign in</a></p>
+                    <div class="opt-in">
+                        <input type="text" class="common-input" id="otp" name="otp">
+                        <input type="text" class="common-input" id="otp" name="otp">
+                        <input type="text" class="common-input" id="otp" name="otp">
+                        <input type="text" class="common-input" id="otp" name="otp">
+                    </div>
+                    <div class="text">
+                        <p class="no-account">didn't get OTP? </p>
+                        <p class="right no-account" id="para">OTP expire on <span id="countDown">15</span>s</p>
+                    </div>
+                    <a href="../generatePassword/index.html" class="sign-in btn-font">submit</a>
+                
                 </div>
             </div>
         </div>
     </form>
+    <script src="count.js"></script>
 </body>
 
 </html>

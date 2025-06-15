@@ -1,0 +1,131 @@
+@import url(../../universal_style/uni-style.css);
+
+.login {
+    color: #3A1C1C;
+    background-color: white;
+}
+
+form h2 {
+    color: #3A1C1C;
+    font-family: "Quicksand", sans-serif;
+    background-color: #FFD9D9;
+    padding: 15px 100px;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+form a:hover {
+    color: #3A1C1C;
+}
+
+form .login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+}
+
+form .login .contain img {
+    height: 206px;
+    width: 206px;
+}
+
+
+form .login .contain {
+    border-width: 2px 2px 2px 1px;
+    border-style: solid;
+    border-color: #8E8282;
+    display: flex;
+    width: 544px;
+    height: 844px;
+    border-radius: 10px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+    padding-bottom: 60px;
+}
+
+form .login .contain .input {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 15px;
+    gap: 15px;
+}
+
+form .login .contain input {
+    padding: 0 10px;
+}
+
+form .login .contain .para-common {
+    padding: 5px 50px;
+}
+
+form .login .para {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+
+form .login .input label {
+    margin-top: 20px;
+    color: black;
+}
+
+form .login .input .common-input {
+    /* margin-top: 10px; */
+    width: 100%;
+    height: 54px;
+    border: 1px solid gray;
+    text-transform: capitalize;
+    border-radius: 5px;
+    font-size: 35px;
+    outline: none;
+}
+
+form .login .input input:focus {
+    border-color: pink;
+}
+
+form .login .contain .input .remember-check {
+    color: #675C5C;
+}
+
+form .login .contain .input .remember-check p {
+    line-height: 30px;
+}
+
+form .login .input .remember-check img {
+    height: 16px;
+    width: 16px;
+    margin-right: 5px;
+}
+
+form .login .contain .input .sign-in {
+    background-color: #FF8FA3;
+    color: white;
+    margin-top: 20px;
+    border: none;
+}
+
+form .login .contain .input .btn-font {
+    font-size: 12px;
+    font-weight: 700;
+    text-align: center;
+    padding: 17px 0;
+}
+
+form .login .contain .input .sign-in-with {
+    border-color: #FF8FA3;
+}
+
+form .login .contain .input a {
+    color: #FF8FA3;
+}
+
+
+form .login .contain .input .btn-font:hover {
+    background-color: #F22E51;
+}

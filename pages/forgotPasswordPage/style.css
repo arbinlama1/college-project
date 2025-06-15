@@ -7,13 +7,11 @@ form h2 {
     color: #3A1C1C;
     font-family: "Quicksand", sans-serif;
     background-color: #FFD9D9;
-    padding: 15px 100px;
+    padding: 15px 150px;
     font-weight: 700;
     font-size: 32px;
 }
-form a:hover {
-    color: #3A1C1C;
-}
+
 form .login {
     display: flex;
     justify-content: center;
@@ -24,10 +22,6 @@ form .login .contain img {
     width: 206px;
     object-fit:  cover;
 }
-form .login .contain .input a img {
-    height: 24px;
-    width: 24px;
-}
 form .login .contain {
     margin: 40px 0;
     padding-top: 60px;
@@ -36,7 +30,7 @@ form .login .contain {
     width: 544px;
     height: 857px;
     border-radius: 10px;
-    justify-content: center;
+    justify-content: start;
     flex-direction: column;
     align-items: center;
 }
@@ -58,9 +52,8 @@ form .login .para {
     font-size: 24px;
     line-height: 30px;
 }
-form .login .contain .well-message {
-    color: #806E6E;
-}
+
+
 form .login .input label {
     margin-top: 20px;
 }
@@ -74,67 +67,27 @@ form .login .input .common-input  {
     font-size: 35px;
     outline: none;
 }
+form .login .input a {
+    padding: 20px 0;
+    text-align: center;
+}
 form .login .input input:focus {
     border-color: pink;
 }
 
-form .login .contain .input .remember-check {
-    display: flex;
-    align-items: center;
-}
-
-form .login .contain .input .remember-check #check {
-    height: 26px;
-    width: 26px;
-    border-radius: 1px;
-    appearance: none;
-    border: 1px solid gray;
-    position: relative;
-    padding: 0;
-}
-
-form .login .contain .input .remember-check #check:checked {
-    border-color: #FF8FA3;
-}
-form .login .contain .input .remember-check #check:checked::after {
-    content: "";
-    position: absolute;
-    width: 6px;
-    height: 12px;
-    border: solid #FF8FA3;
-    border-width: 0 2px 2px 0;
-    transform: rotate(45deg);
-    top: 3px;
-    left: 8px;
-}
-
-form .login .contain .input .remember-check .remember {
-    margin: 0 10px;
-    color: black;
-}
-form .login .contain .input .remember-check a {
-    padding-left: 220px;
-    color: #FF8FA3;
-}
 form .login .contain .input .sign-in {
     background-color: #FF8FA3;
     color: white;
-    margin-top: 40px;
+    margin-top: 10px;
     border: none;
+}
+form .login .contain .input .sign-in:hover {
+    background-color: #F22E51;
 }
 form .login .contain .input .btn-font {
     font-size: 12px;
     font-weight: 700;
-}
-form .login .contain .input .sign-in-with {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    border-color: #FF8FA3;
-}
-form .login .contain .input .sign-in-with a {
-    color: #FF8FA3;
+    color: white;
 }
 form .login .contain .input .no-account {
     text-align: center;
@@ -143,9 +96,5 @@ form .login .contain .input .no-account {
 }
 form .login .contain .input .no-account a {
     color: #FF8FA3;
-}
-form .login .contain .input .sign-in-with:hover,
-form .login .contain .input button:hover {
-    background-color: #F22E51;
 }
 
