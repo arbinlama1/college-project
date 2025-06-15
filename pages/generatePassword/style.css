@@ -56,7 +56,6 @@ form .login .contain .input {
 
 form .login .contain input {
     padding: 0 10px;
-    font-size: 25px;
 }
 
 form .login .contain .para-common {
@@ -82,7 +81,7 @@ form .login .input .common-input {
     border: 1px solid gray;
     text-transform: capitalize;
     border-radius: 5px;
-    font-size: 20px;
+    font-size: 35px;
     outline: none;
 }
 
