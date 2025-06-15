@@ -22,9 +22,6 @@ footer .card-width {
 footer .footer-content .contact .para2 {
     margin: 40px 0;
 }
-footer .contact .col {
-    color: #3A1C1CCC;
-}
 
 footer .flex-box {
     display: flex;
@@ -74,7 +71,6 @@ footer .contact h1 {
 
 footer .copy-right {
     font-weight: 600;
-    color: #3A1C1C;
     margin-top: 60px;
     padding-bottom: 20px;
 }
